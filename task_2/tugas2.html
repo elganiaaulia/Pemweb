@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Produk</title>
+        <style>
+            body {
+                background-color: #2a9d8f;
+               
+            }
+            h3{
+                color:  black;
+            }
+            h1{
+                color: #e9c46a;
+                font-size: 50px;
+            }
+            .box{
+            width: 510px;
+                border: 1px solid;
+            color: #264653;
+            }
+        </style>
+    </head>
+    <body>
+       <center>
+        <h1>Rumah Makan Elgania</h1>
+        <div class="desain-layout">
+            <div class="box">
+                <center>
+                    <img width="500" src="https://recipes.mylifemyid.org/wp-content/uploads/2021/10/Resep-Olahan-Ayam.jpg"alt="">
+                </center>
+                <h3 >
+                    Olahan ayam
+                </h3>
+                
+            </div>
+        </div>
+        <p>pilih menu :</p>
+        <form action="detail-produk.html" method="get">
+        <label for="menu">Menu :</label>
+        <select name="menu" id="menu">
+            <option value="bakar">Ayam Bakar</option>
+            <option value="goreng">Ayam Goreng</option>
+            <option value="kecap">ayam Kecap</option>
+            <option value="opor">Ayam Opor</option>
+          </select> <br><br>
+        <label for="jumlah-porsi">Jumlah Porsi :</label>
+        <input type="number" name="jumlah-barang">
+        <button type="submit">Pesan</button>
+    </form>
+       </center>
+    </body>
+</html>
