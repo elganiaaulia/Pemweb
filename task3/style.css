@@ -1,0 +1,108 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+  }
+  
+  table {
+    border: none;
+    background-color: rgb(128, 171, 133);
+    color: white;
+    border-radius: 10px;
+  }
+  
+  nav {
+    border: none;
+    background-color: rgb(14, 141, 63);
+    color: white;
+    border-radius: 10px;
+  }
+  
+  form {
+    align-content: center;
+    background-color: rgb(14, 141, 63);
+    border-radius: 20px;
+    color: white;
+  }
+  
+  img {
+    background-color: rgb(14, 141, 63);
+    border-radius: none;
+    color: white;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  input {
+    border-radius: 10px;
+    color: black;
+  }
+  
+  iframe {
+    background-color: rgb(128, 171, 133);
+    border-radius: 20px;
+    color: white;
+  }
+  
+  button {
+    border: none;
+    background-color: rgb(14, 141, 63);
+    color: white;
+    border-radius: 10px;
+  }
+  
+  body {
+    background-image: url(https://p0.piqsels.com/preview/263/730/533/4k-wallpaper-blur-close-up-depth-of-field.jpg);
+    background-size: cover;
+  }
+  
+  ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+  }
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  ul.breadcrumb li + li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+  .desk {
+    display: flexbox;
+    background-color: rgb(14, 141, 63);
+    color: white;
+    border-radius: 10px;
+  }
+  .manfaat {
+    display: flexbox;
+    background-color: rgb(14, 141, 63);
+    color: white;
+    border-radius: 20px;
+  }
+  .genre {
+    display: flexbox;
+    background-color: rgb(14, 141, 63);
+    color: white;
+    border-radius: 20px;
+  }
+  .foot {
+    display: flexbox;
+    background-color: grey;
+    color: white;
+  }

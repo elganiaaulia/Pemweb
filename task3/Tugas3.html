@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tugas Praktikum 2</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header id='nim'>
+            <img src="https://drive.google.com/file/d/1SZek8c8ScO22-JOmBD5Y3nxzE-rkUIV9/view?usp=sharing" alt="fotoelga" width="150" height="250">
+        <h1 id="elga"></h1>
+        <p id="sebelum">Kontak Saya</p>
+        <nav>
+            <ul class="breadcrumb">
+                <li> <a href="https://instagram.com/elganiaaulia?igshid=YmMyMTA2M2Y=">Instagram</a> </li>
+                <li> <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">Email</a> </li>
+                <li> <a href="https://github.com/">Github</a> </li>
+                <li> <a href="https://wa.me/+6282145485386">WhatsApp</a> </li>
+            </ul>
+        </nav>
+        <div>
+        <nav class="navbar">
+            <a href="#tentang">Tentang Saya</a>
+            <a href="#kerja">Pengalaman Kerja</a>
+            <a href="#tanggapan">Tanggapan</a>
+        </nav>
+        </div>
+        </header>
+        <main>
+            <section>
+                <h2>Tentang Saya</h2>
+                <p class="desk"> Saya seoarang mahasiswa aktif semester 5 program studi Teknik Informatika yang memilki minat untuk berkontribusi menjadi mahasiswa aktif lingkungan kampus ITERA. Saya mampu mengerjakan tugas dengan tepat waktu. Saya mempunyai kemampuan baik dalam berkomunikasi secara lisan maupun tertulis dengan perhatian yang baik terhadap detail. Saya sangat antusias untuk memulai program kerja. Saya dapat bekerja sama dalam tim dan individu.
+                </p>
+            </section>
+        </main>
+            <figcaption><b>Yuk, lihat YouTube aku !</b></figcaption>
+            <section>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/FHYV2Cg_ZsM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br>
+                <div class="manfaat"> 
+                <b>Apa kamu suka dengan video ku?</b>
+                <br>
+                <input type="radio" name="video" value="ya">Ya<br>
+                <input type="radio" name="video" value="lumayan">Lumayan<br>
+                <input type="radio" name="video" value="tidak">Tidak<br>   
+                </div>
+            </section>
+                <h2 id="kerja">Pengalaman</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th rowspan="2">No</th>
+                            <th rowspan="2">Organisasi dan Kepanitiaan</th>
+                            <th rowspan="2">Posisi</th>
+                            <th colspan="2">Waktu</th>
+                        </tr>
+                        <tr>
+                            <th>Mulai</th>
+                            <th>Sampai</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>DPA Himpunan Mahasiswa Informatika</td>
+                            <td>Sekretaris Komisi Pengawasan</td>
+                            <td>2022</td>
+                            <td>Sekarang</td>
+                        </tr>
+                    </tbody>
+                </table>
+        <section>
+        <h2 id="tanggapan">Tanggapan</h2>
+        <form>
+            <p>Apakah Sudah Menonton Video Tugas Saya?</p>
+            <input type="radio" name="video" value="sudah">Sudah<br>
+            <input type="radio" name="video" value="belum">Belum<br>
+        <br>
+        </section>
+        <section>
+        <div class="genre">
+        <p>Apa makanan kesukaan anda?</p>
+            <input type="checkbox" name="makan" id="nasi goreng" value="nasigoreng">
+            <label for="horor">Pecel Ayam</label><br>
+            <input type="checkbox" name="makan" id="pecel ayam" value="pecelayam">
+            <label for="romantis">Mie Ayam</label><br>
+            <input type="checkbox" name="makan" id="mie ayam" value="mieayam">
+            <label for="action">Mie Goreng</label><br>
+        </div>
+        </section>     
+            <br>
+        <form>
+            <label for="title">Komentar :</label>
+            <input type="text" id="title" name="title" >
+            <button onclick="tombol()" type="submit">Kirim</button>
+        </form>
+        <p>Terimakasi!!</p>
+        <p class="foot">elgania aulia gemintang-120140113</p>
+    </form>
+    <script src="script.js"></script>
+    </body>
+    </html>
