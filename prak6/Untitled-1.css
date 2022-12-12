@@ -1,0 +1,28 @@
+body{
+    color: rgb(249, 246, 246);
+    background-color: #dbd5af;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size:30px;
+}
+
+.container {
+    background-color: rgb(142, 35, 110);
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px;
+    margin-top: 250px;
+    border-radius: 5px;
+}
+
+.result {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
